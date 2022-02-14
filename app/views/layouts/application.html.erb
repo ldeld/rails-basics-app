@@ -11,6 +11,11 @@
   </head>
 
   <body>
+    <ul style="background-color: lightgray;">
+      <li><%= link_to "About us", about_path %></li>
+      <li><%= link_to "Contact us", contact_path %></li>
+    </ul>
     <%= yield %>
+    <p>Made with love by Le Wagon</p>
   </body>
 </html>
